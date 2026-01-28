@@ -1,0 +1,26 @@
+17:16:52: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+17:16:53: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | main | 116] Connected!
+17:16:54: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:16:54: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:16:55: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:16:56: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:16:56: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:16:57: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:16:58: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:16:58: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:00: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:01: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:02: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:03: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Disconnected
+17:17:04: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Disconnected
+17:17:05: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Disconnected
+17:17:06: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Disconnected
+17:17:06: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:07: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:08: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:09: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:10: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:11: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:12: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:13: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
+17:17:14: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 74] Worker status: Connected
