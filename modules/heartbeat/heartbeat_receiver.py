@@ -27,7 +27,9 @@ class HeartbeatReceiver:
         """
         Falliable create (instantiation) method to create a HeartbeatReceiver object.
         """
-        return True, HeartbeatReceiver(cls.__private_key, disconnect_threshold, connection, local_logger)
+        return True, HeartbeatReceiver(
+            cls.__private_key, disconnect_threshold, connection, local_logger
+        )
 
     def __init__(
         self,
