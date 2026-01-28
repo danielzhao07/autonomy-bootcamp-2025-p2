@@ -18,13 +18,13 @@ from ..common.modules.logger import logger
 # =================================================================================================
 def heartbeat_sender_worker(
     connection: mavutil.mavfile,
-    args,  # Place your own arguments here
-    # Add other necessary worker arguments here
+    controller: worker_controller.WorkerController,
 ) -> None:
     """
-    Worker process.
+    Worker process. Sends heartbeat messages to the drone.
 
-    args... describe what the arguments are
+    connection: MAVLink connection to the drone
+    controller: Worker controller for managing worker state
     """
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
@@ -47,8 +47,23 @@ def heartbeat_sender_worker(
     #                          ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
     # =============================================================================================
     # Instantiate class object (heartbeat_sender.HeartbeatSender)
+    result, sender = heartbeat_sender.HeartbeatSender.create(connection)
+    if not result:
+        local_logger.error("Failed to create HeartbeatSender", True)
+        return
+
+    assert sender is not None
+
+    local_logger.info("HeartbeatSender created", True)
 
     # Main loop: do work.
+    while not controller.is_exit_requested():
+        controller.check_pause()
+        sender.run()
+        local_logger.info("Heartbeat sent", True)
+        time.sleep(1)  # Send once per second
+
+    local_logger.info("Worker exiting", True)
 
 
 # =================================================================================================
