@@ -18,8 +18,10 @@ from ..common.modules.logger import logger
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
 def command_worker(
-    connection: mavutil.mavfile,
     target: command.Position,
+    height_tolerance: float,
+    angle_tolerance: float,
+    connection: mavutil.mavfile,
     telemetry_queue: queue_proxy_wrapper.QueueProxyWrapper,
     report_queue: queue_proxy_wrapper.QueueProxyWrapper,
     controller: worker_controller.WorkerController,
@@ -27,8 +29,10 @@ def command_worker(
     """
     Worker process. Makes decisions based on telemetry data.
 
-    connection: MAVLink connection to the drone
     target: Target position to maintain
+    height_tolerance: Tolerance for altitude adjustments (meters)
+    angle_tolerance: Tolerance for yaw adjustments (degrees)
+    connection: MAVLink connection to the drone
     telemetry_queue: Input queue receiving TelemetryData
     report_queue: Output queue for action strings
     controller: Worker controller for managing worker state
@@ -54,7 +58,9 @@ def command_worker(
     #                          ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
     # =============================================================================================
     # Instantiate class object (command.Command)
-    result, cmd = command.Command.create(connection, target, local_logger)
+    result, cmd = command.Command.create(
+        connection, target, height_tolerance, angle_tolerance, local_logger
+    )
     if not result:
         local_logger.error("Failed to create Command", True)
         return

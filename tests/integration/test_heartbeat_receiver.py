@@ -5,6 +5,7 @@ Test the heartbeat reciever worker with a mocked drone.
 import multiprocessing as mp
 import subprocess
 import threading
+import time
 
 from pymavlink import mavutil
 
@@ -140,6 +141,7 @@ def main() -> int:
     threading.Thread(target=read_queue, args=(report_queue, controller, main_logger)).start()
 
     heartbeat_receiver_worker.heartbeat_receiver_worker(
+        DISCONNECT_THRESHOLD,
         connection,
         report_queue,
         controller,

@@ -75,17 +75,19 @@ class Telemetry:
     @classmethod
     def create(
         cls,
+        timeout: float,
         connection: mavutil.mavfile,
         local_logger: logger.Logger,
     ) -> "tuple[True, Telemetry] | tuple[False, None]":
         """
         Falliable create (instantiation) method to create a Telemetry object.
         """
-        return True, Telemetry(cls.__private_key, connection, local_logger)
+        return True, Telemetry(cls.__private_key, timeout, connection, local_logger)
 
     def __init__(
         self,
         key: object,
+        timeout: float,
         connection: mavutil.mavfile,
         local_logger: logger.Logger,
     ) -> None:
@@ -94,7 +96,7 @@ class Telemetry:
         self.connection = connection
         self.local_logger = local_logger
         # pylint: disable=invalid-name
-        self.TIMEOUT = 1.0  # 1 second timeout
+        self.TIMEOUT = timeout
 
     def run(
         self,

@@ -17,6 +17,7 @@ from ..common.modules.logger import logger
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
 def telemetry_worker(
+    period: float,
     connection: mavutil.mavfile,
     telemetry_queue: queue_proxy_wrapper.QueueProxyWrapper,
     controller: worker_controller.WorkerController,
@@ -24,6 +25,7 @@ def telemetry_worker(
     """
     Worker process. Gathers telemetry data from the drone.
 
+    period: Timeout period for receiving messages
     connection: MAVLink connection to the drone
     telemetry_queue: Queue to send TelemetryData to Command worker
     controller: Worker controller for managing worker state
@@ -50,7 +52,7 @@ def telemetry_worker(
     # =============================================================================================
     # Instantiate class object (telemetry.Telemetry)
 
-    result, telem = telemetry.Telemetry.create(connection, local_logger)
+    result, telem = telemetry.Telemetry.create(period, connection, local_logger)
     if not result:
         local_logger.error("Failed to create Telemetry", True)
         return

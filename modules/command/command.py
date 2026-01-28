@@ -37,18 +37,24 @@ class Command:  # pylint: disable=too-many-instance-attributes
         cls,
         connection: mavutil.mavfile,
         target: Position,
+        height_tolerance: float,
+        angle_tolerance: float,
         local_logger: logger.Logger,
     ) -> "tuple[True, Command] | tuple[False, None]":
         """
         Falliable create (instantiation) method to create a Command object.
         """
-        return True, Command(cls.__private_key, connection, target, local_logger)
+        return True, Command(
+            cls.__private_key, connection, target, height_tolerance, angle_tolerance, local_logger
+        )
 
     def __init__(
         self,
         key: object,
         connection: mavutil.mavfile,
         target: Position,
+        height_tolerance: float,
+        angle_tolerance: float,
         local_logger: logger.Logger,
     ) -> None:
         assert key is Command.__private_key, "Use create() method"
@@ -59,8 +65,8 @@ class Command:  # pylint: disable=too-many-instance-attributes
 
         # Thresholds
         # pylint: disable=invalid-name
-        self.HEIGHT_TOLERANCE = 0.5  # meters
-        self.ANGLE_TOLERANCE = math.radians(5)  # 5 degrees in radians
+        self.HEIGHT_TOLERANCE = height_tolerance  # meters
+        self.ANGLE_TOLERANCE = math.radians(angle_tolerance)  # Convert degrees to radians
 
         # For average velocity calculation
         self.velocity_sum_x = 0.0

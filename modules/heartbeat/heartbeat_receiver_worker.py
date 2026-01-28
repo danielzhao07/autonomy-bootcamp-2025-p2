@@ -17,6 +17,7 @@ from ..common.modules.logger import logger
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
 def heartbeat_receiver_worker(
+    disconnect_threshold: int,
     connection: mavutil.mavfile,
     report_queue: queue_proxy_wrapper.QueueProxyWrapper,
     controller: worker_controller.WorkerController,
@@ -24,6 +25,7 @@ def heartbeat_receiver_worker(
     """
     Worker process.
 
+    disconnect_threshold: Number of missed heartbeats before considering disconnected
     connection: MAVLink connection to the drone
     report_queue: Queue to send status reports to main process
     controller: Worker controller for managing worker state
@@ -49,7 +51,9 @@ def heartbeat_receiver_worker(
     #                          ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
     # =============================================================================================
     # Instantiate class object (heartbeat_receiver.HeartbeatReceiver)
-    result, receiver = heartbeat_receiver.HeartbeatReceiver.create(connection, local_logger)
+    result, receiver = heartbeat_receiver.HeartbeatReceiver.create(
+        disconnect_threshold, connection, local_logger
+    )
     if not result:
         local_logger.error("Failed to create HeartbeatReceiver", True)
         return

@@ -20,17 +20,19 @@ class HeartbeatReceiver:
     @classmethod
     def create(
         cls,
+        disconnect_threshold: int,
         connection: mavutil.mavfile,
         local_logger: logger.Logger,
     ) -> "tuple[True, HeartbeatReceiver] | tuple[False, None]":
         """
         Falliable create (instantiation) method to create a HeartbeatReceiver object.
         """
-        return True, HeartbeatReceiver(cls.__private_key, connection, local_logger)
+        return True, HeartbeatReceiver(cls.__private_key, disconnect_threshold, connection, local_logger)
 
     def __init__(
         self,
         key: object,
+        disconnect_threshold: int,
         connection: mavutil.mavfile,
         local_logger: logger.Logger,
     ) -> None:
@@ -41,7 +43,7 @@ class HeartbeatReceiver:
         self.missed_heartbeats = 0
         self.status = "Connected"  # Start as Connected
         # pylint: disable=invalid-name
-        self.DISCONNECT_THRESHOLD = 5  # Number of missed heartbeats before considering disconnected
+        self.DISCONNECT_THRESHOLD = disconnect_threshold
 
     def run(
         self,
