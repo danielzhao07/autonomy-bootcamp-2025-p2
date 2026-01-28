@@ -1,7 +1,0 @@
-16:35:18: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
-16:35:20: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\documentation\main_multiprocess_example.py | main | 182] Started
-16:35:22: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\documentation\main_multiprocess_example.py | main | 188] Paused
-16:35:26: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\documentation\main_multiprocess_example.py | main | 192] Resumed
-16:35:28: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\documentation\main_multiprocess_example.py | main | 199] Requested exit
-16:35:28: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\documentation\main_multiprocess_example.py | main | 205] Queues cleared
-16:35:28: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\documentation\main_multiprocess_example.py | main | 211] Stopped
