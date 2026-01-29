@@ -1,6 +1,6 @@
-17:17:33: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
-17:17:34: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | main | 115] Connected!
-17:17:35: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:34: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | main | 113] Connected!
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -15,7 +15,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:35: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 500,
             x: 0.5,
             y: 0.0,
@@ -30,7 +30,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 1000,
             x: 1.0,
             y: 0.0,
@@ -45,7 +45,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 1500,
             x: 1.5,
             y: 0.0,
@@ -60,7 +60,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 2000,
             x: 2.0,
             y: 0.0,
@@ -75,7 +75,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 2500,
             x: 2.5,
             y: 0.0,
@@ -90,7 +90,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 3000,
             x: 3.0,
             y: 0.0,
@@ -105,7 +105,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 3500,
             x: 3.5,
             y: 0.0,
@@ -120,7 +120,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 4000,
             x: 4.0,
             y: 0.0,
@@ -135,7 +135,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:17:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 74] Telemetry: {
+19:48:41: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 68] Telemetry: {
             time_since_boot: 4500,
             x: 4.5,
             y: 0.0,

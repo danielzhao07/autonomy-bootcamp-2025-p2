@@ -252,7 +252,7 @@ def main() -> int:
         except queue.Empty:
             pass
 
-        # Check command output queue for commands
+        # Check command output queue
         try:
             output = command_output_queue.queue.get_nowait()
             main_logger.info(f"Command output: {output}")

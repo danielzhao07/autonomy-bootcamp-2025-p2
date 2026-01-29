@@ -72,13 +72,11 @@ def read_queue(
     while True:
         try:
             output = output_queue.queue.get(timeout=QUEUE_TIMEOUT)
+            main_logger.info(f"Output: {output}")
         except Exception:  # pylint: disable=broad-exception-caught
+            if output is None:
+                break
             break
-
-        if output is None:
-            break
-
-        main_logger.info(f"Output: {output}")
 
 
 def put_queue(

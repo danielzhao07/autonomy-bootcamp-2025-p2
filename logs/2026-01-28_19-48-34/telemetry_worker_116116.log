@@ -1,0 +1,354 @@
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 48] Logger initialized
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 62] Telemetry created
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 0,
+            x: 0.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 500,
+            x: 0.5,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 1000,
+            x: 1.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 1500,
+            x: 1.5,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 2000,
+            x: 2.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 2500,
+            x: 2.5,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 3000,
+            x: 3.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 3500,
+            x: 3.5,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 4000,
+            x: 4.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:41: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:41: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:41: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 4500,
+            x: 4.5,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:42: [ERROR] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] Timeout: Did not receive both messages within 1 second
+19:48:42: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 75] Telemetry timeout, restarting
+19:48:43: [ERROR] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] Timeout: Did not receive both messages within 1 second
+19:48:43: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 75] Telemetry timeout, restarting
+19:48:43: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:44: [ERROR] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] Timeout: Did not receive both messages within 1 second
+19:48:44: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 75] Telemetry timeout, restarting
+19:48:44: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:44: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:44: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:44: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 0,
+            x: 0.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:44: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 666,
+            x: 0.6666666865348816,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 3.1415927410125732,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 1000,
+            x: 1.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:46: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:46: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:46: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 1666,
+            x: 1.6666666269302368,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:46: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:46: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:46: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:46: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 2000,
+            x: 2.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 2666,
+            x: 2.6666667461395264,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 3.1415927410125732,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 3000,
+            x: 3.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 3666,
+            x: 3.6666667461395264,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 129] Received ATTITUDE
+19:48:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 151] Created TelemetryData
+19:48:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 72] Sent telemetry data: {
+            time_since_boot: 4000,
+            x: 4.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+19:48:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 122] Received LOCAL_POSITION_NED
+19:48:49: [ERROR] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] Timeout: Did not receive both messages within 1 second
+19:48:49: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 75] Telemetry timeout, restarting

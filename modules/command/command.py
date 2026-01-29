@@ -127,7 +127,11 @@ class Command:  # pylint: disable=too-many-instance-attributes
             return True, action
 
         # Check yaw (orientation)
-        if telemetry_data.yaw is not None:
+        if (
+            telemetry_data.yaw is not None
+            and telemetry_data.x is not None
+            and telemetry_data.y is not None
+        ):
             # Calculate required yaw to face target
             dx = self.target.x - telemetry_data.x
             dy = self.target.y - telemetry_data.y

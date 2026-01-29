@@ -1,0 +1,4 @@
+19:48:08: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+19:48:09: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | main | 132] Connected!
+19:48:10: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE ALTITUDE: 1.00
+19:48:11: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE ALTITUDE: -1.00
