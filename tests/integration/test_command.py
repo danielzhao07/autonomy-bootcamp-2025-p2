@@ -35,7 +35,7 @@ TURNING_SPEED = 5  # deg/s
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
 # Add your own constants here
-QUEUE_TIMEOUT = TELEMETRY_PERIOD * 2
+QUEUE_TIMEOUT = TELEMETRY_PERIOD * 30  # Increased to capture all outputs including yaw changes
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
 # =================================================================================================
@@ -74,8 +74,6 @@ def read_queue(
             output = output_queue.queue.get(timeout=QUEUE_TIMEOUT)
             main_logger.info(f"Output: {output}")
         except Exception:  # pylint: disable=broad-exception-caught
-            if output is None:
-                break
             break
 
 

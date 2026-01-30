@@ -67,8 +67,6 @@ def read_queue(
             telemetry_data = output_queue.queue.get(timeout=QUEUE_TIMEOUT)
             main_logger.info(f"Telemetry: {telemetry_data}")
         except Exception:  # pylint: disable=broad-exception-caught
-            if telemetry_data is None:
-                break
             break
 
 

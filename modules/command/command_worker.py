@@ -84,7 +84,6 @@ def command_worker(
             if result:
                 # Send action string to report queue
                 report_queue.queue.put(action)
-                local_logger.info(f"Action taken: {action}", True)
         else:
             time.sleep(0.01)  # Small sleep when queue is empty
 

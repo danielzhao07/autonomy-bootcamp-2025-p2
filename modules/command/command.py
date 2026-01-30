@@ -92,13 +92,10 @@ class Command:  # pylint: disable=too-many-instance-attributes
             self.velocity_sum_z += telemetry_data.z_velocity
         self.data_count += 1
 
-        # Calculate and log average velocity
+        # Calculate average velocity
         avg_vx = self.velocity_sum_x / self.data_count
         avg_vy = self.velocity_sum_y / self.data_count
         avg_vz = self.velocity_sum_z / self.data_count
-        self.local_logger.info(
-            f"Average velocity: ({avg_vx:.2f}, {avg_vy:.2f}, {avg_vz:.2f}) m/s", True
-        )
 
         # Check altitude
         if (
