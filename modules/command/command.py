@@ -68,12 +68,6 @@ class Command:  # pylint: disable=too-many-instance-attributes
         self.HEIGHT_TOLERANCE = height_tolerance  # meters
         self.ANGLE_TOLERANCE = math.radians(angle_tolerance)  # Convert degrees to radians
 
-        # For average velocity calculation
-        self.velocity_sum_x = 0.0
-        self.velocity_sum_y = 0.0
-        self.velocity_sum_z = 0.0
-        self.data_count = 0
-
     def run(
         self, telemetry_data: telemetry.TelemetryData
     ) -> "tuple[True, str] | tuple[False, None]":
@@ -82,20 +76,6 @@ class Command:  # pylint: disable=too-many-instance-attributes
 
         Returns (True, action_string) if a command was sent, (False, None) otherwise.
         """
-
-        # Update average velocity tracking
-        if telemetry_data.x_velocity is not None:
-            self.velocity_sum_x += telemetry_data.x_velocity
-        if telemetry_data.y_velocity is not None:
-            self.velocity_sum_y += telemetry_data.y_velocity
-        if telemetry_data.z_velocity is not None:
-            self.velocity_sum_z += telemetry_data.z_velocity
-        self.data_count += 1
-
-        # Calculate average velocity
-        avg_vx = self.velocity_sum_x / self.data_count
-        avg_vy = self.velocity_sum_y / self.data_count
-        avg_vz = self.velocity_sum_z / self.data_count
 
         # Check altitude
         if (
