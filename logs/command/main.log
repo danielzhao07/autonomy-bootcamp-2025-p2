@@ -1,28 +1,28 @@
-02:45:29: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
-02:45:29: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | main | 130] Connected!
-02:45:29: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE ALTITUDE: 1.00
-02:45:30: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE ALTITUDE: -1.00
-02:45:33: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 63.43
-02:45:33: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 90.00
-02:45:34: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 116.57
-02:45:34: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 45.00
-02:45:35: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 63.43
-02:45:35: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 90.00
-02:45:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 26.57
-02:45:36: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 45.00
-02:45:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 90.00
-02:45:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 45.00
-02:45:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 90.00
-02:45:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 135.00
-02:45:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -26.57
-02:45:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -45.00
-02:45:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -90.00
-02:45:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -45.00
-02:45:41: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -90.00
-02:45:41: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -135.00
-02:45:42: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -63.43
-02:45:42: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -90.00
-02:45:43: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -116.57
-02:45:43: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -45.00
-02:45:44: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -63.43
-02:45:44: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -90.00
+18:05:14: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+18:05:15: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | main | 130] Connected!
+18:05:16: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE ALTITUDE: 1.00
+18:05:16: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE ALTITUDE: -1.00
+18:05:19: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 63.43
+18:05:20: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 90.00
+18:05:20: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 116.57
+18:05:21: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 45.00
+18:05:21: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 63.43
+18:05:22: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 90.00
+18:05:22: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 26.57
+18:05:23: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 45.00
+18:05:23: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 90.00
+18:05:24: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 45.00
+18:05:24: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 90.00
+18:05:25: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: 135.00
+18:05:25: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -26.57
+18:05:26: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -45.00
+18:05:26: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -90.00
+18:05:27: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -45.00
+18:05:27: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -90.00
+18:05:28: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -135.00
+18:05:28: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -63.43
+18:05:29: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -90.00
+18:05:29: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -116.57
+18:05:30: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -45.00
+18:05:30: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -63.43
+18:05:31: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 75] Output: CHANGE YAW: -90.00

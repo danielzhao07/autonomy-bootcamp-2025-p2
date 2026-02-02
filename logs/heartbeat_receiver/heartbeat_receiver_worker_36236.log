@@ -1,0 +1,60 @@
+18:04:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 48] Logger initialized
+18:04:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 63] HeartbeatReceiver created
+18:04:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:37: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:38: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:39: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 1)
+18:04:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:39: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:40: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 1)
+18:04:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:40: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:41: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 1)
+18:04:41: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:42: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 2)
+18:04:42: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:43: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 3)
+18:04:43: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:44: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 4)
+18:04:44: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:45: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 5)
+18:04:45: [ERROR] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 75] Connection lost after 5 missed heartbeats
+18:04:45: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Disconnected
+18:04:46: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 6)
+18:04:46: [ERROR] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 75] Connection lost after 6 missed heartbeats
+18:04:46: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Disconnected
+18:04:47: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 7)
+18:04:47: [ERROR] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 75] Connection lost after 7 missed heartbeats
+18:04:47: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Disconnected
+18:04:48: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 8)
+18:04:48: [ERROR] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 75] Connection lost after 8 missed heartbeats
+18:04:48: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Disconnected
+18:04:49: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:49: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:50: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 1)
+18:04:50: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:50: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:50: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:51: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 1)
+18:04:51: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:51: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:51: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:52: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 1)
+18:04:52: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:52: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:52: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:53: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:53: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:54: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 1)
+18:04:54: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:55: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 67] Received heartbeat
+18:04:55: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:56: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 1)
+18:04:56: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected
+18:04:57: [WARNING] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] Missed heartbeat (count: 2)
+18:04:57: [INFO] [C:\Users\danie\OneDrive - University of Waterloo\Co-op Grind\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 73] Status: Connected

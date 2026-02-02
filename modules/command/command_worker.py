@@ -69,6 +69,12 @@ def command_worker(
 
     local_logger.info("Command created", True)
 
+    # Track cumulative velocities for average calculation
+    total_x_velocity = 0.0
+    total_y_velocity = 0.0
+    total_z_velocity = 0.0
+    data_count = 0
+
     # Main loop: do work.
     while not controller.is_exit_requested():
         controller.check_pause()
@@ -79,9 +85,21 @@ def command_worker(
             if telemetry_data is None:
                 continue
 
-            # Log velocities
+            # Update cumulative velocities and count
+            if telemetry_data.x_velocity is not None:
+                total_x_velocity += telemetry_data.x_velocity
+            if telemetry_data.y_velocity is not None:
+                total_y_velocity += telemetry_data.y_velocity
+            if telemetry_data.z_velocity is not None:
+                total_z_velocity += telemetry_data.z_velocity
+            data_count += 1
+
+            # Calculate and log average velocity vector
+            avg_x = total_x_velocity / data_count
+            avg_y = total_y_velocity / data_count
+            avg_z = total_z_velocity / data_count
             local_logger.info(
-                f"Velocities - x: {telemetry_data.x_velocity}, y: {telemetry_data.y_velocity}, z: {telemetry_data.z_velocity}",
+                f"Average Velocity - x: {avg_x}, y: {avg_y}, z: {avg_z}",
                 True,
             )
 
