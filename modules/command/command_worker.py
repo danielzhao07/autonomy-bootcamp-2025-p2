@@ -79,6 +79,12 @@ def command_worker(
             if telemetry_data is None:
                 continue
 
+            # Log velocities
+            local_logger.info(
+                f"Velocities - x: {telemetry_data.x_velocity}, y: {telemetry_data.y_velocity}, z: {telemetry_data.z_velocity}",
+                True,
+            )
+
             result, action = cmd.run(telemetry_data)
 
             if result:
